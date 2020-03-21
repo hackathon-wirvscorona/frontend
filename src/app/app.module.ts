@@ -16,7 +16,7 @@ import { FrontPageComponent } from './pages/front-page/front-page.component';
     LoginComponent,
     TopBarComponent,
     SettingItemsComponent,
-    AccountPageComponent
+    AccountPageComponent,
     StorePageComponent,
     FrontPageComponent
   ],
