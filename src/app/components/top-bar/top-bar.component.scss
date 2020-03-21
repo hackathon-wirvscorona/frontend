@@ -4,6 +4,7 @@
     overflow: hidden;
     padding-bottom: 9px;
     width: 100%;
+    margin-left: 0px;
     border-bottom: 2px solid grey; /* Or whatever color you want */
     
 
@@ -48,8 +49,9 @@
     margin: 0px; 
     padding-top: 100px;
     background-size: cover;
-    height: 200px;
-    color: #e6f3ff;
+    height: 300px;
+    font-size: 100px;
+    color: #f6f1eb ;
     background-image: url('../../../assets/leeresCaffee.jpg');
     background-position: center;
     }
