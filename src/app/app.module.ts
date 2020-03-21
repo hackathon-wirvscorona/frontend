@@ -8,6 +8,9 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { SettingItemsComponent } from './components/setting-items/setting-items.component';
 import { AccountPageComponent } from './pages/account-page/account-page.component';
 import { AccountSettingsPageComponent } from './pages/account-settings-page/account-settings-page.component';
+import { StorePageComponent } from './pages/store-page/store-page.component';
+import { FrontPageComponent } from './pages/front-page/front-page.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,11 @@ import { AccountSettingsPageComponent } from './pages/account-settings-page/acco
     TopBarComponent,
     SettingItemsComponent,
     AccountPageComponent,
-    AccountSettingsPageComponent
+    AccountSettingsPageComponent,
+    AccountPageComponent,
+    AccountPageComponent,
+    StorePageComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,
