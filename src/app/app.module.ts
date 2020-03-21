@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { SettingItemsComponent } from './components/setting-items/setting-items.component';
+import { AccountPageComponent } from './pages/account-page/account-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     TopBarComponent,
-    SettingItemsComponent
+    SettingItemsComponent,
+    AccountPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,11 @@
-<div *ngFor="let setting of settings">
-    
-        <label style="width:100px;">
+<table style="margin: 20px;">
+    <tr *ngFor="let setting of settings">
+        <td>
             <b>{{setting.settingName}}:</b>
-        </label>
+        </td>
         
-        <label>
+        <td>
             {{setting.settingValue}}
-        </label>      
-   
-</div>
+        </td>      
+    </tr>
+    </table>
