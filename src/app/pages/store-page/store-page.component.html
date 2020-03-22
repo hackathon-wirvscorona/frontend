@@ -1,2 +1,49 @@
 <app-top-bar></app-top-bar>
-<section> <p>store-page works!</p> </section> 
+<section> 
+    <div class="inRow">
+        <img  class="topImage" src="../../../assets/leeresCaffee.jpg">
+        <h1>Perlbohne Karlsruhe</h1>
+        <div class="type">
+            <div class="inlineDiv"><p> Type:</p></div>
+            <div class="inlineDiv"><p> Café</p></div>
+        </div>
+        <h1>Information about Owner</h1>
+        <div>
+            
+        Wir!<br>
+        Wie zwei Bohnen lernten wir uns 2009 als Mitarbeiterinnen 
+        in einer der führenden deutschen Kaffeebarketten in Karlsruhe kennen. <br>
+        Sehr schnell haben uns unsere Kaffeeleidenschaft und unser Teamwork zusammen gebracht. 
+        So entstand Jahre später: die Perlbohne. Mit Kaffee möchten wir das Leben 
+        von Menschen bereichern: das Leben derer, die ihn anbauen, bis hin zu denjenigen, 
+        die ihn mit großer Freude genießen. Daher achten wir auf den Prozess vom 
+        Anbau der Bohne bis hin zum Endprodukt. Wir beziehen unseren Kaffee ausschließlich von Röstern, die diesen aus direktem Handel weiter verarbeiten. Dieser hochwertige Prozess endet bei uns, wenn der Kaffee in die Tasse fließt und der köstliche Duft auf ein Latte Art Kunstwerk trifft und zum perfekten Genuss für alle Sinne wird.
+        Wenn man die Tasse absetzt und versonnen sagt: <br>
+        „Hmmm, Wunderbar!“ – dann ist die Mission der Perlbohnen erfüllt!
+        </div>
+        <h2> Location</h2>
+        <div id="map"></div>
+        <h2>Our Gift Cards:</h2>
+        <div class="inlineDiv">
+           <app-gift-card-preview *ngFor="let card of cards" [giftcard]=card>  
+           </app-gift-card-preview>
+        </div>
+        
+    <script>
+        // Initialize and add the map
+        function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+    </div>
+</section> 
