@@ -9,6 +9,7 @@ import { SettingItemsComponent } from './components/setting-items/setting-items.
 import { AccountPageComponent } from './pages/account-page/account-page.component';
 import { StorePageComponent } from './pages/store-page/store-page.component';
 import { FrontPageComponent } from './pages/front-page/front-page.component';
+import { CreateCardComponent } from './pages/create-card/create-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FrontPageComponent } from './pages/front-page/front-page.component';
     SettingItemsComponent,
     AccountPageComponent,
     StorePageComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    CreateCardComponent
   ],
   imports: [
     BrowserModule,
