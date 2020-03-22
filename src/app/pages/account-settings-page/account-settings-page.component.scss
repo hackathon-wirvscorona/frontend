@@ -1,11 +1,15 @@
-$color: #00b1dd;
+.leftpart{
+    margin-top: 10px;
+    padding-left: 20%;
+    float: left;
+}
 
+$color: #00b1dd;
 .button {
     display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
     color: #fff;
-    text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: .15rem;
     position: relative;
