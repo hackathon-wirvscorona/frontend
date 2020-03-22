@@ -13,6 +13,7 @@ import { FrontPageComponent } from './pages/front-page/front-page.component';
 import { CreateCardComponent } from './pages/create-card/create-card.component';
 import { SplashPageComponent } from './pages/splash-page/splash-page.component';
 import { NaturalSelectComponent } from './components/natural-select/natural-select.component';
+import { ChangeSettinItemsComponent } from './components/change-settin-items/change-settin-items.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { NaturalSelectComponent } from './components/natural-select/natural-sele
     FrontPageComponent,
     CreateCardComponent,
     SplashPageComponent,
-    NaturalSelectComponent
+    NaturalSelectComponent,
+    ChangeSettinItemsComponent
   ],
   imports: [
     BrowserModule,

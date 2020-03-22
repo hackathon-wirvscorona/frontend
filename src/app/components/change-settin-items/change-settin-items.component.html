@@ -1,0 +1,10 @@
+<table style="margin: 20px;">
+    <tr *ngFor="let setting of settings">
+        <td>
+            <b>{{setting.settingName}}:</b>
+        </td>
+        <td>
+            <input value={{setting.settingValue}} name="settingValue">
+        </td>      
+    </tr>
+</table>
