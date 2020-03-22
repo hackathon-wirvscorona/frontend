@@ -13,6 +13,7 @@ import { FrontPageComponent } from './pages/front-page/front-page.component';
 import { CreateCardComponent } from './pages/create-card/create-card.component';
 import { SplashPageComponent } from './pages/splash-page/splash-page.component';
 import { NaturalSelectComponent } from './components/natural-select/natural-select.component';
+import { GiftCardPreviewComponent } from './components/gift-card-preview/gift-card-preview.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { NaturalSelectComponent } from './components/natural-select/natural-sele
     FrontPageComponent,
     CreateCardComponent,
     SplashPageComponent,
-    NaturalSelectComponent
+    NaturalSelectComponent,
+    GiftCardPreviewComponent
   ],
   imports: [
     BrowserModule,
