@@ -27,7 +27,7 @@ import { NaturalSelectComponent } from './components/natural-select/natural-sele
     AccountPageComponent,
     StorePageComponent,
     FrontPageComponent,
-    CreateCardComponent
+    CreateCardComponent,
     SplashPageComponent,
     NaturalSelectComponent
   ],

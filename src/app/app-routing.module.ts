@@ -14,10 +14,10 @@ const routes: Routes = [
   { path:'account', component: AccountPageComponent},
   { path:'account/settings', component: AccountSettingsPageComponent},
   { path: 'store', component: StorePageComponent}, 
-  { path:'createCard', component:CreateCardComponent}
+  { path:'createCard', component:CreateCardComponent},
   { path: 'login', component: LoginComponent},
   { path: 'store', component: StorePageComponent},
-  { path: 'front', component: FrontPageComponent },
+  { path: 'signin', component: FrontPageComponent },
   { path: '', component: SplashPageComponent}
 ];
 
