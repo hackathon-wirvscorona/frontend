@@ -1,7 +1,7 @@
 .select-container {
     background-color: black;
-    height: 400px;
-    width: 200px;
+    height: 200px;
+    width: 100px;
     z-index: 100;
     position: absolute;
     overflow: hidden;
@@ -13,5 +13,5 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    background-color: rgba(white,0);
 }
