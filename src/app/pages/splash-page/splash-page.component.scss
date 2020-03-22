@@ -1,0 +1,43 @@
+.search-container {
+    height: calc(100vh - 170px);
+    background-image: url("../../../assets/shop.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 1px;
+    margin-top: -1px;
+    z-index: 0;
+}
+
+.search-field {
+    background-color: rgba(grey, 0.5);
+    width: 60%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 5% 10px 5%;
+    z-index: 2;
+    line-height: 90px;
+    font-size: 90px;
+}
+
+.search-field button {
+    display: inline-block;
+    height: 100px;
+    margin: 0 20px 0 20px;
+    padding: 0;
+    vertical-align: top;
+    background-color: rgba(grey, 0);
+    border: none;
+    width: fit-content;
+    font-size: 85px;
+}
+
+.search-field-text {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    background-color: rgba(grey, 0);
+}
