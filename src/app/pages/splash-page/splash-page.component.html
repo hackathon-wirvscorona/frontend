@@ -1,0 +1,16 @@
+<app-top-bar></app-top-bar>
+<div class="search-container">
+    <app-natural-select  [positionX]="selectPositionX" [positionY]="selectPositionY" [show]="selectShow" [style.visibility]="selectShow? 'visible' : 'hidden'"></app-natural-select>
+    <div class="search-field">
+        <div class="search-field-text">I want to support </div>
+        <button (click)="openSelect()" class="search-field">any</button>
+        <div class="search-field-text">in</div>
+        <button class="search-field">e.g. Frankfurt</button>
+        <div class="search-field-text">called</div>
+        <button class="search-field">Something</button>
+    </div>
+</div>
+<div class="section">
+</div>
+
+

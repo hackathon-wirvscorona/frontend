@@ -1,11 +1,13 @@
+
 <html>
-    <div>
-        <section>
-            <app-setting-items></app-setting-items>
-        </section>
-        
-        <section>
-            <button>Einstellungen ändern</button>
-        </section>    
-    </div>
+
+    <app-top-bar></app-top-bar>
+    <section>
+        <h2><b>Account</b></h2>
+        <app-setting-items></app-setting-items>
+        <a routerLink="/account/settings" class="button">change settings</a>
+    </section>    
 </html>
+
+
+
