@@ -6,7 +6,10 @@
   padding: 15px;
 }
   
-  
+.row{
+  padding-bottom: 5%;
+  border-bottom: 3px solid black;
+}  
 
 
 /* Clear floats after the columns */
@@ -19,6 +22,7 @@
 
 .bottom {
     padding-top: 50px ;
+    width: 100%;
     text-align: center;
 }
 
@@ -30,3 +34,29 @@
   text-align: center;
 }  
 
+  /* Set a style for all buttons */
+  button {
+    ///background-color: #4891ff;
+    color: black;
+    font-size: 15pt;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 5px;;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .signin{
+    width: 25%;
+  }
+
+  h2{
+    font-weight: 400;
+    font-size: 2em;
+  }
