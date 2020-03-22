@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { NaturalSelectComponent } from './natural-select.component';
 
-import { AccountPageComponent } from './account-page.component';
-
-describe('AccountPageComponent', () => {
-  let component: AccountPageComponent;
-  let fixture: ComponentFixture<AccountPageComponent>;
+describe('NaturalSelectComponent', () => {
+  let component: NaturalSelectComponent;
+  let fixture: ComponentFixture<NaturalSelectComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AccountPageComponent ]
+      declarations: [ NaturalSelectComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AccountPageComponent);
+    fixture = TestBed.createComponent(NaturalSelectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -24,4 +23,3 @@ describe('AccountPageComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-

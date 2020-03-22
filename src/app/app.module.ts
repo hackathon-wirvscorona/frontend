@@ -10,6 +10,8 @@ import { AccountPageComponent } from './pages/account-page/account-page.componen
 import { AccountSettingsPageComponent } from './pages/account-settings-page/account-settings-page.component';
 import { StorePageComponent } from './pages/store-page/store-page.component';
 import { FrontPageComponent } from './pages/front-page/front-page.component';
+import { SplashPageComponent } from './pages/splash-page/splash-page.component';
+import { NaturalSelectComponent } from './components/natural-select/natural-select.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { FrontPageComponent } from './pages/front-page/front-page.component';
     AccountPageComponent,
     AccountPageComponent,
     StorePageComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    SplashPageComponent,
+    NaturalSelectComponent
   ],
   imports: [
     BrowserModule,
