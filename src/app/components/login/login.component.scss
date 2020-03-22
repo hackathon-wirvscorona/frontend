@@ -1,6 +1,7 @@
 /* Bordered form */
 form {
-    border: 3px solid #f1f1f1;
+    border: 3px solid #616161;
+    border-radius: 20px;
     max-width: 400px;
     margin: auto;
     margin-top: 10%;
@@ -45,8 +46,9 @@ form {
 
   /* Add padding to containers */
   .container {
-    padding: 16px;
+    padding: 20px;
     max-width: 400px;
+    background-color: transparent;
   }
   
   /* The "Forgot password" text */
