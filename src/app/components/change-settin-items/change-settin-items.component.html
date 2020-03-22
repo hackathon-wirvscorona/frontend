@@ -1,10 +1,69 @@
 <table style="margin: 20px;">
-    <tr *ngFor="let setting of settings">
+
+    <tr>
         <td>
-            <b>{{setting.settingName}}:</b>
+            <b>Name</b>
         </td>
         <td>
-            <input value={{setting.settingValue}} name="settingValue">
-        </td>      
+            <input value={{this.var.name}} name="name" required>
+        </td>
     </tr>
+    <tr>
+        <td>
+            <b>E-mail</b>
+        </td>
+        <td>
+            <input value={{this.var.email}} name="E-mail" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Street</b>
+        </td>
+        <td>
+            <input value={{this.var.address.street}} name="Street" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Housenumber</b>
+        </td>
+        <td>
+            <input value={{this.var.address.housenumber}} name="Housenumber" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Postcode</b>
+        </td>
+        <td>
+            <input value={{this.var.address.postcode}} name="Postcode" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>City</b>
+        </td>
+        <td>
+            <input value={{this.var.address.city}} name="City" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Longitude</b>
+        </td>
+        <td>
+            <input value={{this.var.address.longitude}} name="Longitude" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Latitude</b>
+        </td>
+        <td>
+            <input value={{this.var.address.latitude}} name="Latitude" required>
+        </td>
+    </tr>
+
+
 </table>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Setting } from '../../models/Setting'
+import { Setting } from 'src/app/models/Setting';
 
 @Component({
   selector: 'app-change-settin-items',
@@ -7,17 +7,23 @@ import { Setting } from '../../models/Setting'
   styleUrls: ['./change-settin-items.component.scss']
 })
 export class ChangeSettinItemsComponent implements OnInit {
-  settings:Setting[]
+  var:Setting
 
   constructor() { }
 
   ngOnInit(): void {
-    this.settings = [
-      {settingName:"Name", settingValue:"Felix"},
-      {settingName:"E-Mail", settingValue:"blah@blah.de"},
-      {settingName:"Username", settingValue:"Felix123"},
-      {settingName:"Passwort", settingValue:"***********"}
-    ]
+    this.var = {
+      name: "Felix",
+      email: "Blah@Straße",
+      address: {
+        street: "straße",
+        housenumber: "24a",
+        postcode: 123,
+        city: "stadt",
+        longitude: 0,
+        latitude: 0
+      } 
+    }
   }
 
 }

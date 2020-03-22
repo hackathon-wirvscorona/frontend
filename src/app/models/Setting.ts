@@ -1,4 +1,7 @@
+import {Address} from './Address';
+
 export class Setting{
-    settingName:String;
-    settingValue:String;
+    name:String;
+    email:String;
+    address:Address;
 }
