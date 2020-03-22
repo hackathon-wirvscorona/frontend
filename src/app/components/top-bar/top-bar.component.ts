@@ -18,7 +18,6 @@ export class TopBarComponent implements OnInit {
   ngOnInit(): void {
     this.navbar = document.getElementById("navbar");
     this.sticky = this.navbar.offsetTop;
-    
 
   }
 

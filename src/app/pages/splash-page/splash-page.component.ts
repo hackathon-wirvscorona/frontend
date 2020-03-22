@@ -6,23 +6,34 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./splash-page.component.scss']
 })
 export class SplashPageComponent implements OnInit {
-  selectPositionX = 200;
-  selectPositionY = 500;
+  selectPositionX = 0;
+  selectPositionY = 0;
+  inputHeight = 0;
+  inputWidth = 0;
   verticalOffset = 0;
-  selectShow: true;
+  selectShow = false;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.selectPositionX);
   }
 
-  openSelect() {
+  openSelect(event: any) {
+      console.log(event.target);
+      this.inputHeight = event.target.clientHeight;
+      this.inputWidth = event.target.clientWidth;
+      this.selectPositionX = event.target.offsetLeft;
+      this.selectPositionY = event.target.offsetTop - window.pageYOffset;
+      this.selectShow = true;
+  }
+
+  onExit(event: any) {
+    console.log('exit');
+    this.selectShow = false;
   }
 
   @HostListener('window:scroll', []) onWindowScroll() {
     this.verticalOffset = window.pageYOffset || document.body.scrollTop || 0;
-    console.log(this.verticalOffset);
 }
 
 }
